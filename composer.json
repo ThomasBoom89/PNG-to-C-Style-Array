@@ -1,0 +1,25 @@
+{
+	"name": "thomasboom89/png-to-c-style-array",
+	"description": "A tool to convert a png to a c style array",
+	"license": "MIT",
+	"support": {
+		"issues": "https://github.com/ThomasBoom89/png-to-c-style-array/issues"
+	},
+	"authors": [
+		{
+			"name": "ThomasBoom89",
+			"email": "51998416+ThomasBoom89@users.noreply.github.com",
+			"homepage": "https://github.com/ThomasBoom89/png-to-c-style-array",
+			"role": "owner"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"Thomas\\ImageToPixel\\": "src/"
+		}
+	},
+	"require": {
+		"php": "^8.1",
+		"ext-imagick": "*"
+	}
+}
